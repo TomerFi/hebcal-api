@@ -27,6 +27,7 @@
     <hamcrest.version>2.2</hamcrest.version>
     <jackson.version>2.12.3</jackson.version>
     <javafaker.version>1.0.2</javafaker.version>
+    <json-smart.version>2.4.7</json-smart.version>
     <junit-jupiter.version>5.7.1</junit-jupiter.version>
     <opentest4j.version>1.2.0</opentest4j.version>
     <mockito.version>3.9.0</mockito.version>
@@ -187,6 +188,11 @@
         <version>${slf4j.version}</version>
       </dependency>
       <!-- DEPENDENCY CONVERGENCE RESOLUTION -->
+      <dependency>
+        <groupId>net.minidev</groupId>
+        <artifactId>json-smart</artifactId>
+        <version>${json-smart.version}</version>
+      </dependency>
       <dependency>
         <groupId>org.hamcrest</groupId>
         <artifactId>hamcrest</artifactId>
